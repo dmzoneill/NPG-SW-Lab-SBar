@@ -1,0 +1,48 @@
+<table style='width:100%'>
+	<tr>
+		<td style='width:40%;padding-left:20px;padding-right:50px;'>
+			<h3>Create</h3><br>
+			<input id="amountSpinner" value='1' style='width:40px'/> &nbsp; <input id="specNew" type='text' placeholder='Spec No#' style='width:120px'/> &nbsp;  
+			<button id='createButton'/>Create</button> <button id='copyButton'/>Copy</button><br><br>
+			<table id="newBarcodes" style="display:none">
+				<thead>
+					<tr>
+						<th>Barcode</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<th>Barcode</th>
+					</tr>
+				</tfoot>
+				<tbody id='newBody'>
+				
+				</tbody>
+			</table>
+		</td>
+		<td style='width:60%;padding-left:50px;padding-right:20px;'>
+			<h3>Used</h3><br>
+			<table id="usedHpvipBarcodes" class="display" cellspacing="0" width="100%">
+				<thead>
+					<tr>
+						<th>Barcode</th>
+						<th>SpecNo</th>
+						<th>Creator</th>
+						<th>Created</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<th>Barcode</th>
+						<th>SpecNo</th>
+						<th>Creator</th>
+						<th>Created</th>
+					</tr>
+				</tfoot>
+				<tbody id='usedBody'>
+				
+				</tbody>
+			</table>		
+		</td>
+	</tr>
+</table>
