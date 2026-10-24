@@ -1,0 +1,12 @@
+# Vendored third-party JavaScript: jQuery, jQuery UI, DataTables 1.10.10 (SpryMedia), ZeroClipboard (Jon Rohan/James M. Greene), jQuery Numeric (Sam Collett).
+javascript/jquery.min.js
+javascript/jquery-ui.min.js
+javascript/datatables.js
+javascript/ZeroClipboard.js
+javascript/ZeroClipboard.Core.js
+javascript/jquery.numeric.min.js
+
+# Vendored third-party CSS: Bootstrap, DataTables and jQuery UI stylesheets.
+css/bootstrap.min.css
+css/datatables.css
+css/jquery-ui*.css
