@@ -1,5 +1,9 @@
 # NPG-SW-Lab-SBar
 
+<p align="center">
+  <img src=".github/logo.png" alt="NPG-SW-Lab-SBar logo" width="128" />
+</p>
+
 SBar is a small PHP web application for tracking serial numbers,
 barcodes and assets in an Intel NPG software lab.
 
